@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CAT API</title>
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <fieldset>
+</head>
+<body style="background-color: tomato;">
+ <center> <div class="container">
+    <h1>&#x2728;CAT API &#x2728;</h1>
+    <div id="searchWrapper">
+        <input
+            type="text"
+            name="searchBar"
+            id="searchBar"
+            placeholder="search here"
+        />
+    </div>
+    <ul id="charactersList"></ul>
+</div></center>
+ <center> <button data-modal-target="#modal">pop-up</button></center>
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="title">pop-up</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      <image src="https://cdn2.thecatapi.com/images/b1c.jpg" width="470px" height="350px"></image>
+
+    </div>
+  </div>
+  <div id="overlay"></div>
+</body>
+</fieldset>
+</html>
